@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.tab2 p {
+    color: white;
+}
+
+.tab1 {
+    background-color: lightsteelblue;
+    width: 800px;
+    border: 2px solid darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.navbar {
+    background-color: darkblue;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border: 2px solid darkblue;
+}
+
+ul {
+    margin: 0;
+    padding: 0 41px;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+
+ul li {
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: background 0.2s;
+    color: lightgray;
+}
+
+ul li a {
+    color: lightblue;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+ul li:hover,
+ul li a:hover {
+    font-weight: bold;
+    color: white
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 600px;
+    height: auto;
+    /* margin: auto; */
+    align-items: center;
+    padding-left: 7px;
+}
+
+.container:hover {
+    background-color: darkcyan;
+}
+
+.img {
+    width: 120px;
+    margin: auto;
+    align-items: center;
+}
+
+.main {
+    background-color: lightblue;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid darkblue;
+}
+
+.container {
+    background-color: lightblue;
+    width: 790px;
+    height: 120px;
+    margin: auto;
+    position: relative;
+    border: 1px solid darkblue;
+    /* top: 5px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container li:hover {
+    background-color: white;
+}
+
+div.text {
+    /* position: absolute; */
+    width: 600px;
+    height: auto;
+    /* border: 3px solid #73AD21; */
+}
+
+div.image {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 200px;
+    height: 100px;
+    /* border: 3px solid #73AD21; */
+    text-align: right;
+}
